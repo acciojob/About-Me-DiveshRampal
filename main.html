@@ -1,1 +1,105 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            background-color: deepskyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            max-width: 900px;
+        }
+        .top-section {
+            display: flex;
+        }
+        .left {
+            width: 40%;
+            padding: 20px;
+            text-align: left;
+        }
+        .right {
+            width: 60%;
+            padding: 10px;
+        }
+        img {
+            width: 150px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: black;
+            border-bottom: 2px solid black;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column; 
+        }
+        .skill {
+            margin: 10px 0;
+        }
+        .skill div {
+            text-align: right;
+            padding: 5px;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .bar {
+            height: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .html-bar { width: 90%; background-color: #2965f1; }
+        .css-bar { width: 85%; background-color: #2965f1; }
+        .js-bar { width: 75%; background-color: #2965f1; color: black; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-section">
+            <div class="left">
+                <img src="https://play-lh.googleusercontent.com/MG6c3_Zf4q_KWonZp3K2GvWD338KzDzTH8DY-nS4-3G3rS6X7CbbLLNBMTolGVg8ju3F=w2560-h1440-rw" alt="photo">
+        
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div class="skill">HTML
+                        <div class="bar"><div class="html-bar"></div></div>
+                    </div>
+                    <div class="skill">CSS
+                        <div class="bar"><div class="css-bar"></div></div>
+                    </div>
+                    <div class="skill">JavaScript
+                        <div class="bar"><div class="js-bar"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <p><strong>Name:</strong>Divesh Rampal</p>
+                <p><strong>Profile:</strong>Software Developer</p>
+                <p><strong>Email:</strong>diveshrampal14@@gmail.com</p>
+            </div>
+            <div class="right">
+                <h2>About me</h2>
+                <p>hi, I am Divesh Rampal, i want to switch my carrier in IT industry.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
